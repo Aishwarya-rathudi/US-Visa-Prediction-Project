@@ -50,16 +50,27 @@ The system is designed to be **scalable, reproducible, and deployment-ready**.
 ## 📂 Project Structure  
 
 US-Visa-Approval-Prediction/
+
 │── constant/ # Constant values
+
 │── config_entity/ # Configurations
+
 │── artifact_entity/ # Entities for pipeline artifacts
+
 │── component/ # Data ingestion, validation, transformation, training
+
 │── pipeline/ # Training & prediction pipelines
+
 │── app.py / demo.py # Flask app for deployment
+
 │── requirements.txt # Dependencies
+
 │── config.yaml # Pipeline configuration
+
 │── params.yaml # Hyperparameters
+
 │── dvc.yaml # DVC pipeline
+
 │── setup.py # Installation
 
 
