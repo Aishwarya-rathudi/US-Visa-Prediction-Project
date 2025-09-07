@@ -91,7 +91,7 @@ conda activate visa
 ### Install dependencies
 pip install -r requirements.txt
 
-## Run Flask app
+### Run Flask app
 python app.py
 
 ### 🔑 Environment Variables
@@ -104,15 +104,13 @@ export AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID>
 
 export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
 
-☁️ AWS CICD Deployment with GitHub Actions
+### ☁️ AWS CICD Deployment with GitHub Actions
 
 1️⃣ Login to AWS Console
 
 2️⃣ Create IAM User for Deployment
 
-Access Required:
-
-AmazonEC2FullAccess
+Access Required: AmazonEC2FullAccess
 
 AmazonEC2ContainerRegistryFullAccess
 
