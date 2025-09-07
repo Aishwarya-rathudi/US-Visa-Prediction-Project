@@ -80,7 +80,6 @@ US-Visa-Approval-Prediction/
 
 ### 🔹 Setup Project  
 
-```bash
 # Clone the repository
 git clone https://github.com/<your-username>/US-Visa-Approval-Prediction.git
 cd US-Visa-Approval-Prediction
@@ -95,7 +94,7 @@ pip install -r requirements.txt
 # Run Flask app
 python app.py
 
-🔑 Environment Variables
+## 🔑 Environment Variables
 
 Before running, set up required environment variables:
 
@@ -156,7 +155,7 @@ AWS_DEFAULT_REGION
 
 ECR_REPO
 
-📈 Results
+### 📈 Results
 
 ✅ Achieved high accuracy in visa approval prediction
 
