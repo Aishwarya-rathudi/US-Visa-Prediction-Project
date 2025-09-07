@@ -80,10 +80,6 @@ US-Visa-Approval-Prediction/
 
 ### 🔹 Setup Project  
 
-### Clone the repository
-git clone https://github.com/<your-username>/US-Visa-Approval-Prediction.git
-cd US-Visa-Approval-Prediction
-
 ### Create virtual environment
 conda create -n visa python=3.8 -y
 conda activate visa
