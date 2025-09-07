@@ -80,18 +80,18 @@ US-Visa-Approval-Prediction/
 
 ### 🔹 Setup Project  
 
-# Clone the repository
+## Clone the repository
 git clone https://github.com/<your-username>/US-Visa-Approval-Prediction.git
 cd US-Visa-Approval-Prediction
 
-# Create virtual environment
+## Create virtual environment
 conda create -n visa python=3.8 -y
 conda activate visa
 
-# Install dependencies
+## Install dependencies
 pip install -r requirements.txt
 
-# Run Flask app
+## Run Flask app
 python app.py
 
 ## 🔑 Environment Variables
@@ -122,13 +122,13 @@ AmazonEC2ContainerRegistryFullAccess
 
 5️⃣ Install Docker on EC2
 
-# Optional
+## Optional
 
 sudo apt-get update -y
 
 sudo apt-get upgrade
 
-# Required
+## Required
 
 curl -fsSL https://get.docker.com -o get-docker.sh
 
